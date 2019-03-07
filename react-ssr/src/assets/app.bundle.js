@@ -38078,7 +38078,7 @@ exports.default = SEO;
 "use strict";
 
 
-var domain_api = "http://localhost/demo/api/";
+var domain_api = "http://giaystore.tk/api/";
 
 var config = {
     domain_api: domain_api,
@@ -38352,8 +38352,6 @@ exports.default = function () {
     var result = (0, _extends3.default)({}, state);
     switch (action.type) {
         case _actions.detail_action.ACTION_GET_CONTENT_DETAIL:
-        case _actions.detail_action.ACTION_GET_CONTENT_EPISODES:
-        case _actions.detail_action.ACTION_GET_CONTENT_BY_SLUG:
             result[action.type] = action.payload.data;
             break;
         default:

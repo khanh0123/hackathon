@@ -1,4 +1,4 @@
-let domain_api = "http://localhost/demo/api/";
+let domain_api = "http://giaystore.tk/api/";
 
 let config = {
     domain_api:domain_api,
